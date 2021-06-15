@@ -6,7 +6,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const name = 'Ricardo Yasuda';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Ricardo Yasuda, software developer';
 
 export default function Layout({ children, home }: {
   children: React.ReactNode

@@ -3,10 +3,12 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import Date from '../components/date';
+import Experience from '../components/experience';
 import { getSortedPostsData } from '../lib/posts';
 import utilStyles from '../styles/utils.module.css';
 
 export default function Home({ allPostsData }) {
+  const workingSince = 1999
   return (
     <Layout home>
       <Head>
@@ -14,14 +16,17 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I'm <b>Ricardo</b>! I'm a software engineer, guitar player and
-          cyclist. You can contact me on{' '}
-          <a href="https://twitter.com/shadowmaru">Twitter</a>.
+          Hello 👋, I&apos;m <b>Ricardo</b>! I&apos;m a software developer 💻 
+          based in São Paulo, Brazil 🇧🇷, with{' '} 
+          <Experience sinceYear={workingSince}></Experience>. 
+          You can find me on{' '}
+          <a href="https://twitter.com/shadowmaru">Twitter</a> and on{' '}
+          <a href="https://github.com/shadowmaru">GitHub</a>.
         </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+
+        <p>I like to build software, especially using languages like Ruby, Elixir and JavaScript. Sometimes I also contribute with open source projects.</p>
+
+        <p>When I&apos;m not coding, I&apos;m playing guitar 🎸 with my band (or in Rocksmith), riding one of my bikes 🚴 or playing videogames 👾.</p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
