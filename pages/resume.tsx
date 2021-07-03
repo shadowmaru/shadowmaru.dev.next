@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout, { siteTitle } from "../components/layout";
 import Job from "../components/job";
+import Education from "../components/education";
 import utilStyles from "../styles/utils.module.css";
 
 export default function Resume() {
@@ -17,6 +18,7 @@ export default function Resume() {
         <Job
           title="Software Engineer Specialist"
           company="SumUp"
+          url="https://sumup.com.br"
           from={new Date(2019, 8, 16)}
           to={new Date()}
         >
@@ -26,7 +28,7 @@ export default function Resume() {
 
         <Job
           title="Senior Software Developer"
-          company="Grupo Bio Ritmo"
+          company="Grupo Bio Ritmo/Smart Fit"
           from={new Date(2015, 6, 1)}
           to={new Date(2019, 8, 16)}
         >
@@ -57,6 +59,7 @@ export default function Resume() {
         <Job
           title="Software Developer"
           company="DBurns Design"
+          url="https://www.dburnsdesign.com/"
           from={new Date(2008, 8, 1)}
           to={new Date(2009, 7, 1)}
         >
@@ -84,6 +87,24 @@ export default function Resume() {
           from={new Date(1999, 11, 1)}
           to={new Date(2000, 4, 1)}
         ></Job>
+      </section>
+      <section className={utilStyles.headingMd}>
+        <h2>Education</h2>
+
+        <Education
+          place="Universidade de São Paulo"
+          degree="Licenciate"
+          subject="Mathematics"
+          from={new Date(1995, 0, 1)}
+          to={new Date(2005, 0, 1)}
+        ></Education>
+        <Education
+          place="Universidade Metodista de São Paulo"
+          degree="Bachelor"
+          subject="Computer Science"
+          from={new Date(1998, 0, 1)}
+          to={new Date(2001, 0, 1)}
+        ></Education>
       </section>
     </Layout>
   );
