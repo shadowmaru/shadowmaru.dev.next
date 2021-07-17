@@ -1,3 +1,5 @@
+import styles from "../styles/company_name.module.css";
+
 export default function CompanyName({
   children,
   url,
@@ -5,5 +7,11 @@ export default function CompanyName({
   children: string;
   url: string;
 }) {
-  return url ? <a href={url}>{children}</a> : <span>{children}</span>;
+  return url ? (
+    <a href={url} className={styles.companyLink}>
+      {children}
+    </a>
+  ) : (
+    <span>{children}</span>
+  );
 }
