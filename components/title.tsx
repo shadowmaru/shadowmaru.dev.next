@@ -1,6 +1,6 @@
-import styles from "../styles/company_name.module.css";
+import styles from "../styles/title.module.css";
 
-export default function CompanyName({
+export default function Title({
   children,
   url,
 }: {
@@ -8,7 +8,7 @@ export default function CompanyName({
   url: string;
 }) {
   return url ? (
-    <a href={url} className={styles.companyLink}>
+    <a href={url} className={styles.link}>
       {children}
     </a>
   ) : (

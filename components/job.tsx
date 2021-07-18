@@ -1,5 +1,5 @@
 import { format, formatDuration, intervalToDuration } from "date-fns";
-import CompanyName from "../components/company_name";
+import Title from "./title";
 import utilStyles from "../styles/utils.module.css";
 import jobStyles from "../styles/job.module.css";
 
@@ -26,13 +26,13 @@ export default function Job({
   if (Array.isArray(children)) {
     headline = (
       <h3 className={`${utilStyles.headingLg} ${jobStyles.headingLg}`}>
-        <CompanyName url={url}>{company}</CompanyName>
+        <Title url={url}>{company}</Title>
       </h3>
     );
   } else {
     headline = (
       <h3 className={`${utilStyles.headingLg} ${jobStyles.headingLg}`}>
-        {title} at <CompanyName url={url}>{company}</CompanyName>
+        {title} at <Title url={url}>{company}</Title>
       </h3>
     );
   }

@@ -36,10 +36,16 @@ export default function Home({ allPostsData }) {
           in Rocksmith), riding one of my bikes 🚴, playing videogames 👾 or
           feeding my cats 🐈‍⬛ and dogs 🐕.
         </p>
+
+        <p>
+          You can read what I&apos;ve written in{" "}
+          <Link href="/publications">external publications</Link> or in the
+          posts below.
+        </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Writing</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
