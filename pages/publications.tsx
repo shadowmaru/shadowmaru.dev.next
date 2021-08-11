@@ -28,9 +28,9 @@ export default function Publications() {
           type="Translation"
           date="2009"
         >
-          Translation to Brazilian Portuguese of &ldquo;Why's (poignant) guide
-          to Ruby&rdquo;, by Why the lucky stiff. Made in collaboration with
-          several Brazilian developers.
+          Translation to Brazilian Portuguese of &ldquo;Why&apos;s (poignant)
+          guide to Ruby&rdquo;, by Why the lucky stiff. Made in collaboration
+          with several Brazilian developers.
         </Publication>
 
         <Publication
