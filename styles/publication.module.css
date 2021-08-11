@@ -1,8 +1,13 @@
-.headingLg {
+.container {
+  border-left: 1px dotted #999;
+  padding-left: 1rem;
+}
+
+.headingMd {
   margin-bottom: 0;
 }
 
 .duration {
   color: #666;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }

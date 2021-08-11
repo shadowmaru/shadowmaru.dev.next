@@ -14,7 +14,7 @@ export default function Resume() {
         <title>{siteTitle} - Resume</title>
       </Head>
       <section>
-        <h2 className={utilStyles.headingXl}>Working Experience</h2>
+        <h2 className={utilStyles.headingLg}>Working Experience</h2>
 
         <Job
           title="Software Engineer Specialist"
@@ -114,8 +114,8 @@ export default function Resume() {
           to={new Date(2000, 4, 1)}
         ></Job>
       </section>
-      <section className={utilStyles.headingMd}>
-        <h2>Education</h2>
+      <section>
+        <h2 className={utilStyles.headingLg}>Education</h2>
 
         <Education
           place="Universidade de São Paulo"

@@ -1,4 +1,6 @@
 import { format } from "date-fns";
+import utilStyles from "../styles/utils.module.css";
+import educationStyles from "../styles/education.module.css";
 
 export default function Education({
   degree,
@@ -20,13 +22,15 @@ export default function Education({
     to.getFullYear() === today.getFullYear() &&
     to.getMonth() === today.getMonth();
   return (
-    <div>
+    <div className={educationStyles.container}>
       {" "}
-      <b>{place}</b>
+      <h3 className={`${utilStyles.headingMd} ${educationStyles.headingMd}`}>
+        {place}
+      </h3>
       <div>
         {degree}, {subject}
       </div>
-      <div>
+      <div className={educationStyles.duration}>
         {format(from, "yyy")} -{" "}
         {isCurrentEducation ? "present" : format(to, "yyy")}{" "}
       </div>

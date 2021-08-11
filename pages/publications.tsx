@@ -9,8 +9,8 @@ export default function Publications() {
       <Head>
         <title>{siteTitle} - Publications</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <h2 className={utilStyles.headingXl}>Publications</h2>
+      <section>
+        <h2 className={utilStyles.headingLg}>Publications</h2>
 
         <Publication
           title="InfoQ BR"

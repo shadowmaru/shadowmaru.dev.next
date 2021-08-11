@@ -17,9 +17,9 @@ export default function Publication({
   children?: React.ReactNode;
 }) {
   return (
-    <div>
+    <div className={publicationStyles.container}>
       {" "}
-      <h3 className={`${utilStyles.headingLg} ${publicationStyles.headingLg}`}>
+      <h3 className={`${utilStyles.headingMd} ${publicationStyles.headingMd}`}>
         <Title url={url}>{title}</Title>
       </h3>
       <div className={publicationStyles.duration}>

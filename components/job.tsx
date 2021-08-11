@@ -25,13 +25,13 @@ export default function Job({
   let headline;
   if (Array.isArray(children)) {
     headline = (
-      <h3 className={`${utilStyles.headingLg} ${jobStyles.headingLg}`}>
+      <h3 className={`${utilStyles.headingMd} ${jobStyles.headingMd}`}>
         <Title url={url}>{company}</Title>
       </h3>
     );
   } else {
     headline = (
-      <h3 className={`${utilStyles.headingLg} ${jobStyles.headingLg}`}>
+      <h3 className={`${utilStyles.headingMd} ${jobStyles.headingMd}`}>
         {title} at <Title url={url}>{company}</Title>
       </h3>
     );
