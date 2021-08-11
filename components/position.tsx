@@ -1,3 +1,6 @@
+import utilStyles from "../styles/utils.module.css";
+import positionStyles from "../styles/position.module.css";
+
 export default function Position({
   title,
   children,
@@ -6,9 +9,11 @@ export default function Position({
   children?: React.ReactNode;
 }) {
   return (
-    <div>
-      <b className="position">{title}</b>
-      <p>{children}</p>
+    <div className={positionStyles.container}>
+      <h4 className={`${utilStyles.headingMd} ${positionStyles.headingMd}`}>
+        {title}
+      </h4>
+      <div>{children}</div>
     </div>
   );
 }

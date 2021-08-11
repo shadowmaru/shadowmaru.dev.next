@@ -1,3 +1,8 @@
+.container {
+  border-left: 1px dotted #999;
+  padding-left: 1rem;
+}
+
 .headingLg {
   margin-bottom: 0;
 }

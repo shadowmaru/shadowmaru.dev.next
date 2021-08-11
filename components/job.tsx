@@ -37,7 +37,7 @@ export default function Job({
     );
   }
   return (
-    <div>
+    <div className={jobStyles.container}>
       {" "}
       {headline}
       <div className={jobStyles.duration}>

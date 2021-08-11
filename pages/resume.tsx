@@ -13,7 +13,7 @@ export default function Resume() {
       <Head>
         <title>{siteTitle} - Resume</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section>
         <h2 className={utilStyles.headingXl}>Working Experience</h2>
 
         <Job
@@ -45,8 +45,8 @@ export default function Resume() {
           from={new Date(2014, 1, 1)}
           to={new Date(2015, 6, 1)}
         >
-          Full stack web developer using Ruby, Sinatra, AngularJS. Integration
-          with Facebook APIs.
+          Adtech startup focused on Facebook campaigns. Full stack web developer
+          using Ruby, Sinatra, AngularJS. Integration with Facebook APIs.
         </Job>
 
         <Job
@@ -72,8 +72,8 @@ export default function Resume() {
           from={new Date(2008, 8, 1)}
           to={new Date(2009, 7, 1)}
         >
-          Developed the in-house CMS, used to build several projects for
-          clients.
+          Developed the in-house CMS with Ruby on Rails, used to build several
+          projects for clients.
         </Job>
 
         <Job
@@ -81,6 +81,10 @@ export default function Resume() {
           from={new Date(2001, 6, 1)}
           to={new Date(2008, 8, 1)}
         >
+          Digital agency with internal and external projects. Internal projects
+          were focused on kids and gastronomy. External projects were diverse,
+          ranging from hospitality fairs to government websites and political
+          campaigns.
           <Position title="IT Coordinator">
             Responsible for the IT team, managing internal network and inventory
           </Position>
@@ -98,7 +102,10 @@ export default function Resume() {
           company="E-Sport Internet"
           from={new Date(2000, 4, 1)}
           to={new Date(2001, 4, 1)}
-        ></Job>
+        >
+          Entertainment and news portal about sports. Backend development in
+          Perl and PHP.
+        </Job>
 
         <Job
           title="Intern"
