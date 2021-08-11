@@ -3,7 +3,7 @@ title: "Using Notion for 1:1s"
 date: "2021-07-17"
 ---
 
-Recently I've started to have regular 1:1s with members on my team, as part of a transition to the
+Recently I've started to hold regular 1:1s with members on my team, as part of a transition to the
 Engineering Manager role. I was having regular 1:1s with my manager also, so now things were starting
 to get out of control: I had to have notes on all meetings, and some action points that were result
 of those meetings. How could I keep things organized?
@@ -51,4 +51,4 @@ And the result is this:
 
 ### Example
 
-The example I've shown here is available [at my Notion Workspace](https://shadowmaru.notion.site/1-1s-Example-fb8de172acd745318812c2fa5cc7d1eb). Remember to view the database as "Board View".
+The example I've shown here is available [at my Notion Workspace](https://shadowmaru.notion.site/1-1s-Example-fb8de172acd745318812c2fa5cc7d1eb). Remember to set the database visualization as "Board View".
