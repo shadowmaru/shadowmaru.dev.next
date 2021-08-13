@@ -1,14 +1,17 @@
+import { useEffect } from "react";
 import styles from "../styles/toggle_dark_mode.module.css";
 
 export default function ToggleDarkMode({}: {}) {
-  if (typeof window !== "undefined") {
-    const currentTheme = window.localStorage.getItem("theme");
-    if (currentTheme == "dark-mode") {
-      // ...then use the .dark-theme class
-      document.getElementById("main").classList.add("dark-mode");
-      document.getElementById("main").classList.remove("light-mode");
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const currentTheme = window.localStorage.getItem("theme");
+
+      if (currentTheme == "dark-mode") {
+        document.getElementById("main").classList.add("dark-mode");
+        document.getElementById("main").classList.remove("light-mode");
+      }
     }
-  }
+  }, []);
 
   return (
     <div className={styles.btn}>
