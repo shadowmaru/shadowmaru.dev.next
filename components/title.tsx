@@ -1,5 +1,3 @@
-import styles from "../styles/title.module.css";
-
 export default function Title({
   children,
   url,
@@ -8,7 +6,7 @@ export default function Title({
   url: string;
 }) {
   return url ? (
-    <a href={url} className={styles.link}>
+    <a href={url} className="special-link">
       {children}
     </a>
   ) : (

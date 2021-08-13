@@ -43,12 +43,20 @@ img {
   display: block;
 }
 
+a.special-link {
+  color: #444;
+}
+
 /* Dark Mode */
 
 #main.dark-mode {
   background-color: #1a1a1a;
   color: #d9d9d9;
   border: 1px solid #1a1a1a;
+}
+
+#main.dark-mode a.special-link {
+  color: #fff;
 }
 
 /* Any element with the class "light--hidden" will be hidden when the site is set to Light Mode */
