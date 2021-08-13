@@ -1,6 +1,15 @@
 import styles from "../styles/toggle_dark_mode.module.css";
 
 export default function ToggleDarkMode({}: {}) {
+  if (typeof window !== "undefined") {
+    const currentTheme = window.localStorage.getItem("theme");
+    if (currentTheme == "dark-mode") {
+      // ...then use the .dark-theme class
+      document.getElementById("main").classList.add("dark-mode");
+      document.getElementById("main").classList.remove("light-mode");
+    }
+  }
+
   return (
     <div className={styles.btn}>
       <svg xmlns="http://www.w3.org/2000/svg" style={{ display: "none" }}>
@@ -54,6 +63,14 @@ export default function ToggleDarkMode({}: {}) {
 }
 
 export function ToggleButton() {
-  document.getElementById("main").classList.toggle("dark-mode");
-  document.getElementById("main").classList.toggle("light-mode");
+  const main = document.getElementById("main");
+  main.classList.toggle("dark-mode");
+  main.classList.toggle("light-mode");
+
+  let theme = "light-mode";
+  if (main.classList.contains("dark-mode")) {
+    theme = "dark-mode";
+  }
+
+  window.localStorage.setItem("theme", theme);
 }
