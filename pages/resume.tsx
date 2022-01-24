@@ -17,25 +17,20 @@ export default function Resume() {
         <h2 className={utilStyles.headingLg}>Working Experience</h2>
 
         <Job
-          title="Engineering Manager"
-          company="SumUp"
-          url="https://sumup.com.br"
-          from={new Date(2021, 10, 1)}
-          to={new Date()}
-        >
-          Engineering Manager for the Telecom team, handling connectivity for
-          card readers worldwide.
-        </Job>
-
-        <Job
-          title="Software Engineer Specialist"
+          title=""
           company="SumUp"
           url="https://sumup.com.br"
           from={new Date(2019, 8, 16)}
-          to={new Date(2021, 10, 1)}
+          to={new Date()}
         >
-          Tech Lead of Terminals team, handling financial transactions from card
-          readers, using Elixir and Erlang.
+          <Position title="Engineering Manager">
+            Engineering Manager for the Telecom team, handling connectivity for
+            card readers worldwide.
+          </Position>
+          <Position title="Software Engineer Specialist">
+            Tech Lead of Terminals team, handling financial transactions from card
+            readers, using Elixir and Erlang.
+          </Position>
         </Job>
 
         <Job
