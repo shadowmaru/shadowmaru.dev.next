@@ -19,7 +19,7 @@ export default function Resume() {
         <Job
           title="Engineering Manager"
           company="SumUp"
-          uri="https://sumup.com.br"
+          url="https://sumup.com.br"
           from={new Date(2021, 10, 1)}
           to={new Date()}
         >
