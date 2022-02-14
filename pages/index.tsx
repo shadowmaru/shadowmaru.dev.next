@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
           Hello 👋&nbsp;, I&apos;m <b>Ricardo</b>! I&apos;m a software developer
           💻&nbsp; based in São Paulo, Brazil 🇧🇷&nbsp;, with{" "}
           <Link href="/resume" passHref>
-            <a>{today.getFullYear() - workingSince} years of experience</a>
+            <a className="resume">{today.getFullYear() - workingSince} years of experience</a>
           </Link>
           . You can find me on{" "}
           <a href="https://twitter.com/shadowmaru">Twitter</a> and on{" "}
@@ -27,7 +27,7 @@ export default function Home({ allPostsData }) {
         </p>
 
         <p>
-          I like to build software, especially using languages like Ruby, Elixir
+          I like to build software, using languages like Ruby, Elixir
           and JavaScript. Sometimes I also contribute with open source projects.
         </p>
 
@@ -39,18 +39,18 @@ export default function Home({ allPostsData }) {
 
         <p>
           You can read what I&apos;ve written in{" "}
-          <Link href="/publications">external publications</Link> or in the
+          <Link href="/publications"><a className="publications">external publications</a></Link> or in the
           posts below.
         </p>
       </section>
 
-      <section className={` ${utilStyles.padding1px}`}>
+      <section className={`writing ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Writing</h2>
-        <ul className={utilStyles.list}>
+        <ul className={`writing__posts ${utilStyles.list}`}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
+                <a className="writing__posts__link">{title}</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
