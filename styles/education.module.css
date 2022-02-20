@@ -1,5 +1,5 @@
 .container {
-  border-left: 1px dotted #999;
+  display: flex;
   padding-left: 1rem;
 }
 
@@ -7,7 +7,27 @@
   margin-bottom: 0;
 }
 
-.duration {
+.durationText {
   color: #666;
   font-size: 0.9rem;
 }
+
+.duration {
+  flex: 0.8;
+}
+
+.duration h4 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.description {
+  flex: 1.2;
+  margin-bottom: 1.3rem;
+}
+
+.description h3 {
+  margin-top: 0;
+}
+
+

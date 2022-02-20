@@ -1,9 +1,7 @@
 .container {
-  border-left: 1px dotted #ccc;
-  padding-left: 1rem;
 }
 
-.headingMd {
+.headingSm {
   margin-top: 0.5rem;
   margin-bottom: 0;
 }

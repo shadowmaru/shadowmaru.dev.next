@@ -10,7 +10,7 @@ export default function Position({
 }) {
   return (
     <div className={positionStyles.container}>
-      <h4 className={`${utilStyles.headingMd} ${positionStyles.headingMd}`}>
+      <h4 className={`${utilStyles.headingSm} ${positionStyles.headingSm}`}>
         {title}
       </h4>
       <div>{children}</div>

@@ -6,6 +6,8 @@ import jobStyles from "../styles/job.module.css";
 export default function Job({
   title,
   company,
+  city,
+  country,
   url,
   from,
   to,
@@ -13,6 +15,8 @@ export default function Job({
 }: {
   title?: string;
   company: string;
+  city: string;
+  country: string;
   url?: string;
   from: Date;
   to: Date;
@@ -22,36 +26,33 @@ export default function Job({
   const isCurrentJob =
     to.getFullYear() === today.getFullYear() &&
     to.getMonth() === today.getMonth();
-  let headline;
-  if (Array.isArray(children)) {
-    headline = (
-      <h3 className={`${utilStyles.headingMd} ${jobStyles.headingMd}`}>
-        <Title url={url}>{company}</Title>
-      </h3>
-    );
-  } else {
-    headline = (
-      <h3 className={`${utilStyles.headingMd} ${jobStyles.headingMd}`}>
-        {title} at <Title url={url}>{company}</Title>
-      </h3>
-    );
-  }
+  let headline = (
+    <h3 className={`${utilStyles.headingMd} ${jobStyles.headingMd}`}>
+      <Title url={url}>{company}, {city}, {country}</Title>
+    </h3>
+  );
+
   return (
     <div className={jobStyles.container}>
       {" "}
-      {headline}
       <div className={jobStyles.duration}>
-        {format(from, "LLL yyy")} -{" "}
-        {isCurrentJob ? "present" : format(to, "LLL yyy")}{" "}
-        <i>
-          (
-          {formatDuration(intervalToDuration({ start: from, end: to }), {
-            format: ["years", "months"],
-          })}
-          )
-        </i>
+        <h4 className={`${utilStyles.headingSm} ${jobStyles.headingSm}`}>
+          {format(from, "LLL yyy")} -{" "}
+          {isCurrentJob ? "present" : format(to, "LLL yyy")}{" "}
+          <br />
+          <i className={jobStyles.durationInYears}>
+            (
+            {formatDuration(intervalToDuration({ start: from, end: to }), {
+              format: ["years", "months"],
+            })}
+            )
+          </i>
+        </h4>
       </div>
-      <div>{children}</div>
+      <div className={jobStyles.description}>
+        {headline}
+        <div>{children}</div>
+      </div>
     </div>
   );
 }

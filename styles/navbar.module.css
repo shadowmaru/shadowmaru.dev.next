@@ -16,3 +16,9 @@
   align-items: center;
   display: flex;
 }
+
+@media print {
+  .navbar {
+    display: none;
+  }
+}
