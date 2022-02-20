@@ -7,27 +7,17 @@
   margin-bottom: 0;
 }
 
-.duration {
+.title {
   flex: 0.8;
 }
 
-.duration h4 {
+.title h4 {
   margin-top: 0;
   font-size: 1.1rem;
 }
-
 
 .description {
   flex: 1.2;
   margin-bottom: 1.3rem;
 }
 
-.description h3 {
-  margin-top: 0;
-}
-
-@media print {
-  .durationInYears {
-    display: none;
-  }
-}

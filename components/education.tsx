@@ -6,6 +6,8 @@ export default function Education({
   degree,
   subject,
   place,
+  city,
+  country,
   from,
   to,
   children,
@@ -13,6 +15,8 @@ export default function Education({
   degree: string;
   subject: string;
   place: string;
+  city: string;
+  country: string;
   from: Date;
   to: Date;
   children?: React.ReactNode;
@@ -24,19 +28,23 @@ export default function Education({
   return (
     <div className={educationStyles.container}>
       {" "}
-      <h3 className={`${utilStyles.headingMd} ${educationStyles.headingMd}`}>
-        {place}
-      </h3>
-      <div>
-        {degree}, {subject}
-      </div>
       <div className={educationStyles.duration}>
-        {format(from, "yyy")} -{" "}
-        {isCurrentEducation ? "present" : format(to, "yyy")}{" "}
+        <h4 className={educationStyles.durationText}>
+          {format(from, "yyy")} -{" "}
+          {isCurrentEducation ? "present" : format(to, "yyy")}{" "}
+        </h4>
       </div>
-      <p>
-        <small>{children}</small>
-      </p>
+      <div className={educationStyles.description}>
+        <h3 className={`${utilStyles.headingMd} ${educationStyles.headingMd}`}>
+          {place}, {city}, {country}
+        </h3>
+        <div>
+          {degree}, {subject}
+        </div>
+        <p>
+          <small>{children}</small>
+        </p>
+      </div>
     </div>
   );
 }

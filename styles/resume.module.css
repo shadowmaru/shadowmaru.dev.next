@@ -1,0 +1,25 @@
+.personal {
+  display: flex;
+  padding-bottom: 1em;
+  border-bottom: 1px dotted #999;
+}
+
+.personalInfo {
+  flex: 1;
+}
+
+.personalPhoto {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.working {
+  padding-bottom: 1em;
+  border-bottom: 1px dotted #999;
+}
+
+.education {
+  padding-bottom: 1em;
+  border-bottom: 1px dotted #999;
+}
