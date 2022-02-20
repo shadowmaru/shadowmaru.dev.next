@@ -28,7 +28,7 @@ export default function Job({
     to.getMonth() === today.getMonth();
   let headline = (
     <h3 className={`${utilStyles.headingMd} ${jobStyles.headingMd}`}>
-      <Title url={url}>{company}, {city}, {country}</Title>
+      <Title url={url}>{`${company}, ${city}, ${country}`}</Title>
     </h3>
   );
 

@@ -15,7 +15,7 @@ context('Resume', () => {
     cy.visit('/resume')
 
     cy.contains("SumUp")
-    cy.contains("Grupo Bio Ritmo/Smart Fit")
+    cy.contains("Smart Fit")
     cy.contains("Topster")
   })
 
@@ -24,5 +24,11 @@ context('Resume', () => {
 
     cy.contains("Universidade de São Paulo")
     cy.contains("Universidade Metodista de São Paulo")
+  })
+
+  it('has a knowledge section', () => {
+    cy.visit('/resume')
+
+    cy.contains("Knowledge")
   })
 })
