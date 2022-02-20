@@ -4,7 +4,6 @@ Personal website available on shadowmaru.dev using Next.js and Typescript.
 
 ## Run
 
-```````````````````````
 ```sh
 $ yarn dev
 ```
