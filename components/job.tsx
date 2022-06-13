@@ -26,6 +26,9 @@ export default function Job({
   const isCurrentJob =
     to.getFullYear() === today.getFullYear() &&
     to.getMonth() === today.getMonth();
+  const isRecentJob =
+    from.getFullYear() === to.getFullYear() &&
+    from.getMonth() === to.getMonth()
   let headline = (
     <h3 className={`${utilStyles.headingMd} ${jobStyles.headingMd}`}>
       <Title url={url}>{`${company}, ${city}, ${country}`}</Title>
@@ -40,13 +43,13 @@ export default function Job({
           {format(from, "LLL yyy")} -{" "}
           {isCurrentJob ? "present" : format(to, "LLL yyy")}{" "}
           <br />
-          <i className={jobStyles.durationInYears}>
+          {!isRecentJob && <i className={jobStyles.durationInYears}>
             (
             {formatDuration(intervalToDuration({ start: from, end: to }), {
               format: ["years", "months"],
             })}
             )
-          </i>
+          </i>}
         </h4>
       </div>
       <div className={jobStyles.description}>

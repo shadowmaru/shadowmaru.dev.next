@@ -45,11 +45,24 @@ export default function Resume() {
 
         <Job
           company="SumUp"
+          city="Berlin"
+          country="DE"
+          url="https://sumup.de"
+          from={new Date(2022, 5, 1)}
+          to={new Date()}
+        >
+          <Position title="Engineering Manager">
+            Engineering Manager for the Logistics team, responsible for the platform that
+            handles product deliveries.
+          </Position>
+        </Job>
+        <Job
+          company="SumUp"
           city="São Paulo"
           country="BR"
           url="https://sumup.com.br"
           from={new Date(2019, 8, 16)}
-          to={new Date()}
+          to={new Date(2022, 4, 31)}
         >
           <Position title="Engineering Manager">
             Engineering Manager for the Telecom team, handling connectivity for
@@ -100,10 +113,10 @@ export default function Resume() {
           <Position title="Senior Software Developer">
             Developed integrations with ERPs, banks and card schemes.
           </Position>
-      <Position title="Software Developer">
-        Developed solutions for online sales, client management,
-        charging and access control.
-      </Position>
+          <Position title="Software Developer">
+            Developed solutions for online sales, client management,
+            charging and access control.
+          </Position>
         </Job>
 
         <Job
@@ -142,46 +155,46 @@ export default function Resume() {
             Backend development for internal projects, using PHP
           </Position>
         </Job>
-        </section>
+      </section>
 
-        <section className={resumeStyles.education}>
-          <h2 className={utilStyles.headingLg}>Education</h2>
+      <section className={resumeStyles.education}>
+        <h2 className={utilStyles.headingLg}>Education</h2>
 
-          <Education
-            place="Universidade de São Paulo"
-            city="São Paulo"
-            country="BR"
-            degree="Licenciate"
-            subject="Mathematics"
-            from={new Date(1995, 0, 1)}
-            to={new Date(2005, 0, 1)}
-          ></Education>
-          <Education
-            place="Universidade Metodista de São Paulo"
-            city="São Bernardo do Campo"
-            country="BR"
-            degree="Bachelor"
-            subject="Computer Science"
-            from={new Date(1998, 0, 1)}
-            to={new Date(2001, 0, 1)}
-          ></Education>
-        </section>
+        <Education
+          place="Universidade de São Paulo"
+          city="São Paulo"
+          country="BR"
+          degree="Licenciate"
+          subject="Mathematics"
+          from={new Date(1995, 0, 1)}
+          to={new Date(2005, 0, 1)}
+        ></Education>
+        <Education
+          place="Universidade Metodista de São Paulo"
+          city="São Bernardo do Campo"
+          country="BR"
+          degree="Bachelor"
+          subject="Computer Science"
+          from={new Date(1998, 0, 1)}
+          to={new Date(2001, 0, 1)}
+        ></Education>
+      </section>
 
-        <section className={resumeStyles.knowledge}>
-          <h2 className={utilStyles.headingLg}>Knowledge</h2>
+      <section className={resumeStyles.knowledge}>
+        <h2 className={utilStyles.headingLg}>Knowledge</h2>
 
-          <Knowledge title="Languages">
-            Portuguese (native), English (fluent), Spanish (advanced), German (elementary)
-          </Knowledge>
+        <Knowledge title="Languages">
+          Portuguese (native), English (fluent), Spanish (advanced), German (elementary)
+        </Knowledge>
 
-          <Knowledge title="Programming Languages">
-            Elixir, Ruby, JavaScript
-          </Knowledge>
+        <Knowledge title="Programming Languages">
+          Elixir, Ruby, JavaScript
+        </Knowledge>
 
-          <Knowledge title="Other Skills">
-            Scrum, Kanban, Management 3.0
-          </Knowledge>
-        </section>
-        </Layout>
+        <Knowledge title="Other Skills">
+          Scrum, Kanban, Management 3.0
+        </Knowledge>
+      </section>
+    </Layout>
   );
 }
