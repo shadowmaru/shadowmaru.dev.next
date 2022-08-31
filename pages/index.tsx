@@ -16,8 +16,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section>
         <p>
-          Hello 👋&nbsp;, I&apos;m <b>Ricardo</b>! I&apos;m a software developer
-          💻&nbsp; based in São Paulo, Brazil 🇧🇷&nbsp;, with{" "}
+          Hello 👋&nbsp;, I&apos;m <b>Ricardo</b>! I&apos;m a Brazilian 🇧🇷&nbsp; software developer
+          💻&nbsp; currently working as Engineering Manager 🧑🏻‍💻&nbsp;based in Berlin, Germany 🇩🇪&nbsp;, with{" "}
           <Link href="/resume" passHref>
             <a className="resume">{today.getFullYear() - workingSince} years of experience</a>
           </Link>
@@ -32,9 +32,9 @@ export default function Home({ allPostsData }) {
         </p>
 
         <p>
-          When I&apos;m not coding, I&apos;m playing guitar 🎸&nbsp; with my
-          band (or in Rocksmith), riding one of my bikes 🚴&nbsp;, playing
-          videogames 👾&nbsp; or feeding my cats 🐈‍⬛&nbsp; and dogs 🐕&nbsp;.
+          In my free time, I&apos;m playing guitar 🎸&nbsp;,
+          riding bikes 🚴&nbsp;, playing
+          videogames 👾&nbsp; or feeding my cats 🐈‍⬛&nbsp;.
         </p>
 
         <p>
