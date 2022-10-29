@@ -16,10 +16,10 @@ export default function Home({ allPostsData }) {
       </Head>
       <section>
         <p>
-          Hello 👋&nbsp;, I&apos;m <b>Ricardo</b>! I&apos;m a Brazilian 🇧🇷&nbsp; software developer
+          Hello 👋&nbsp;, I&apos;m <b>Ricardo Yasuda</b>! I&apos;m a Brazilian 🇧🇷&nbsp; software developer
           💻&nbsp; currently working as Engineering Manager 🧑🏻‍💻&nbsp;based in Berlin, Germany 🇩🇪&nbsp;, with{" "}
-          <Link href="/resume" passHref>
-            <a className="resume">{today.getFullYear() - workingSince} years of experience</a>
+          <Link href="/resume" passHref className="resume">
+            {today.getFullYear() - workingSince} years of experience
           </Link>
           . You can find me on{" "}
           <a href="https://twitter.com/shadowmaru">Twitter</a> and on{" "}
@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
 
         <p>
           You can read what I&apos;ve written in{" "}
-          <Link href="/publications"><a className="publications">external publications</a></Link> or in the
+          <Link href="/publications" className="publications">external publications</Link> or in the
           posts below.
         </p>
       </section>
@@ -49,9 +49,7 @@ export default function Home({ allPostsData }) {
         <ul className={`writing__posts ${utilStyles.list}`}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a className="writing__posts__link">{title}</a>
-              </Link>
+              <Link href={`/posts/${id}`} className="writing__posts__link">{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <PostDate dateString={date}></PostDate>
