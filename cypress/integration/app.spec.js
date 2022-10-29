@@ -2,7 +2,7 @@ context('App', () => {
   it('loads the app and shows greeting', () => {
     cy.visit("/")
 
-    cy.contains("Hello 👋 , I'm Ricardo! I'm a Brazilian 🇧🇷 software developer 💻")
+    cy.contains("Hello 👋 , I'm Ricardo Yasuda! I'm a Brazilian 🇧🇷 software developer 💻")
     cy.contains("I like to build software, using languages like Ruby, Elixir and JavaScript.")
   })
 
