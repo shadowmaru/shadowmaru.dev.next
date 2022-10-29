@@ -52,8 +52,8 @@ export default function Resume() {
           to={new Date()}
         >
           <Position title="Engineering Manager">
-            Engineering Manager for the Logistics team, responsible for the platform that
-            handles product deliveries.
+            Engineering Manager for multiple teams (Logistics, Partners, Pricing) in the Acquisition Tribe, with around
+            10 people under my responsibility.
           </Position>
         </Job>
         <Job
