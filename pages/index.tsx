@@ -22,7 +22,8 @@ export default function Home({ allPostsData }) {
             {today.getFullYear() - workingSince} years of experience
           </Link>
           . You can find me on{" "}
-          <a href="https://twitter.com/shadowmaru">Twitter</a> and on{" "}
+          <s><a href="https://twitter.com/shadowmaru">Twitter</a></s>{" "}
+          <a rel="me" href="https://kolektiva.social/@shadowmaru">Mastodon</a> and on{" "}
           <a href="https://github.com/shadowmaru">GitHub</a>.
         </p>
 
