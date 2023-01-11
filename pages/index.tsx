@@ -29,13 +29,13 @@ export default function Home({ allPostsData }) {
 
         <p>
           I like to build software, using languages like Ruby, Elixir
-          and JavaScript. Sometimes I also contribute with open source projects.
+          and JavaScript. Sometimes I also contribute to open source projects.
         </p>
 
         <p>
-          In my free time, I&apos;m playing guitar 🎸&nbsp;,
+          In my spare time, I&apos;m playing guitar 🎸&nbsp;,
           riding bikes 🚴&nbsp;, playing
-          videogames 👾&nbsp; or feeding my cats 🐈‍⬛&nbsp;.
+          video games 👾&nbsp; or feeding my cats 🐈‍⬛&nbsp;.
         </p>
 
         <p>
