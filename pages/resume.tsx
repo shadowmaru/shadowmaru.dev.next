@@ -16,7 +16,7 @@ export default function Resume() {
   return (
     <Layout resume>
       <Head>
-        <title>{siteTitle} - Resume</title>
+        <title>{`${siteTitle} - Resume`}</title>
       </Head>
 
       <section className={resumeStyles.personal}>
