@@ -7,7 +7,7 @@ export default function Publications() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Publications</title>
+        <title>{`${siteTitle} - Publications`}</title>
       </Head>
       <section>
         <h2 className={utilStyles.headingLg}>Publications</h2>
