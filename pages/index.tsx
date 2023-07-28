@@ -23,7 +23,8 @@ export default function Home({ allPostsData }) {
           </Link>
           . You can find me on{" "}
           <s><a href="https://twitter.com/shadowmaru">Twitter</a></s>{" "}
-          <a rel="me" href="https://kolektiva.social/@shadowmaru">Mastodon</a> and on{" "}
+          <a rel="me" href="https://kolektiva.social/@shadowmaru">Mastodon (pt-br)</a>,{" "}
+          <a rel="me" href="https://hachyderm.io/@shadow">Mastodon (en)</a> and on{" "}
           <a href="https://github.com/shadowmaru">GitHub</a>.
         </p>
 
