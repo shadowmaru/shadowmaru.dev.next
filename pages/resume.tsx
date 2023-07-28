@@ -52,8 +52,9 @@ export default function Resume() {
           to={new Date()}
         >
           <Position title="Engineering Manager">
-            Engineering Manager for multiple teams (Logistics, Partners, Pricing) in the Acquisition Tribe, with around
-            10 people under my responsibility.
+            Engineering Manager for multiple teams (Logistics, Partners,
+            Pricing, Billing) in multiple tribes (Acquisition, Growth,
+            Online Payments).
           </Position>
         </Job>
         <Job
@@ -68,7 +69,7 @@ export default function Resume() {
             Engineering Manager for the Telecom team, handling connectivity for
             card readers worldwide.
           </Position>
-          <Position title="Software Engineer Specialist">
+          <Position title="Specialist Software Engineer">
             Tech Lead of Terminals team, handling financial transactions from card
             readers, using Elixir and Erlang.
           </Position>
