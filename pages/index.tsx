@@ -16,33 +16,42 @@ export default function Home({ allPostsData }) {
       </Head>
       <section>
         <p>
-          Hello 👋&nbsp;, I&apos;m <b>Ricardo Yasuda</b>! I&apos;m a Brazilian 🇧🇷&nbsp; software developer
-          💻&nbsp; currently working as Engineering Manager 🧑🏻‍💻&nbsp;based in Berlin, Germany 🇩🇪&nbsp;, with{" "}
+          Hello 👋&nbsp;, I&apos;m <b>Ricardo Yasuda</b>! I&apos;m a Brazilian
+          🇧🇷&nbsp; software developer 💻&nbsp; currently working as Engineering
+          Manager 🧑🏻‍💻&nbsp;based in Berlin, Germany 🇩🇪&nbsp;, with{" "}
           <Link href="/resume" passHref className="resume">
             {today.getFullYear() - workingSince} years of experience
           </Link>
           . You can find me on{" "}
-          <s><a href="https://twitter.com/shadowmaru">Twitter</a></s>{" "}
-          <a rel="me" href="https://kolektiva.social/@shadowmaru">Mastodon (pt-br)</a>,{" "}
-          <a rel="me" href="https://hachyderm.io/@shadow">Mastodon (en)</a> and on{" "}
-          <a href="https://github.com/shadowmaru">GitHub</a>.
+          <s>
+            <a href="https://twitter.com/shadowmaru">Twitter</a>
+          </s>{" "}
+          <a rel="me" href="https://bolha.one/@shadowmaru">
+            Mastodon (pt-br)
+          </a>
+          ,{" "}
+          <a rel="me" href="https://hachyderm.io/@shadow">
+            Mastodon (en)
+          </a>{" "}
+          and on <a href="https://github.com/shadowmaru">GitHub</a>.
         </p>
 
         <p>
-          I like to build software, using languages like Ruby, Elixir
-          and JavaScript. Sometimes I also contribute to open source projects.
+          I like to build software, using languages like Ruby, Elixir and
+          JavaScript. Sometimes I also contribute to open source projects.
         </p>
 
         <p>
-          In my spare time, I&apos;m playing guitar 🎸&nbsp;,
-          riding bikes 🚴&nbsp;, playing
-          video games 👾&nbsp; or feeding my cats 🐈‍⬛&nbsp;.
+          In my spare time, I&apos;m playing guitar 🎸&nbsp;, riding bikes
+          🚴&nbsp;, playing video games 👾&nbsp; or feeding my cats 🐈‍⬛&nbsp;.
         </p>
 
         <p>
           You can read what I&apos;ve written in{" "}
-          <Link href="/publications" className="publications">external publications</Link> or in the
-          posts below.
+          <Link href="/publications" className="publications">
+            external publications
+          </Link>{" "}
+          or in the posts below.
         </p>
       </section>
 
@@ -51,7 +60,9 @@ export default function Home({ allPostsData }) {
         <ul className={`writing__posts ${utilStyles.list}`}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`} className="writing__posts__link">{title}</Link>
+              <Link href={`/posts/${id}`} className="writing__posts__link">
+                {title}
+              </Link>
               <br />
               <small className={utilStyles.lightText}>
                 <PostDate dateString={date}></PostDate>
