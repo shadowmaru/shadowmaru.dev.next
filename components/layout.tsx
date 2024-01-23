@@ -37,13 +37,13 @@ export default function Layout({
           />
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
-          <Script>
-            {`
-            var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101172554);
-            `}
-          </Script>
-          <Script async src="//static.getclicky.com/js" />
         </Head>
+        <Script>
+          {`
+          var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101172554);
+          `}
+        </Script>
+        <Script async src="//static.getclicky.com/js" />
         <header className={styles.header}>
           {home ? (
             <>
