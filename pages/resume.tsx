@@ -10,7 +10,7 @@ import Knowledge from "../components/knowledge";
 import resumeStyles from "../styles/resume.module.css";
 import utilStyles from "../styles/utils.module.css";
 
-const name = 'Ricardo Yasuda'
+const name = "Ricardo Yasuda";
 
 export default function Resume() {
   return (
@@ -25,7 +25,8 @@ export default function Resume() {
 
           <p>
             <b>Email:</b> ricardo@yasuda.dev.br <br />
-            <b>Web:</b> https://yasuda.dev.br<br />
+            <b>Web:</b> https://yasuda.dev.br
+            <br />
             <b>Nationality:</b> Brazilian
           </p>
         </div>
@@ -53,8 +54,8 @@ export default function Resume() {
         >
           <Position title="Engineering Manager">
             Engineering Manager for multiple teams (Logistics, Partners,
-            Pricing, Billing) in multiple tribes (Acquisition, Growth,
-            Online Payments).
+            Pricing, Billing) in multiple tribes (Acquisition, Growth, Online
+            Payments).
           </Position>
         </Job>
         <Job
@@ -70,8 +71,8 @@ export default function Resume() {
             card readers worldwide.
           </Position>
           <Position title="Specialist Software Engineer">
-            Tech Lead of Terminals team, handling financial transactions from card
-            readers, using Elixir and Erlang.
+            Tech Lead of Terminals team, handling financial transactions from
+            card readers, using Elixir and Erlang.
           </Position>
         </Job>
 
@@ -98,8 +99,9 @@ export default function Resume() {
           to={new Date(2015, 6, 1)}
         >
           <Position title="Senior Software Developer">
-            Adtech startup focused on Facebook campaigns. Full stack web developer
-            using Ruby, Sinatra, AngularJS. Integration with Facebook APIs.
+            Adtech startup focused on Facebook campaigns. Full stack web
+            developer using Ruby, Sinatra, AngularJS. Integration with Facebook
+            APIs.
           </Position>
         </Job>
 
@@ -115,8 +117,8 @@ export default function Resume() {
             Developed integrations with ERPs, banks and card schemes.
           </Position>
           <Position title="Software Developer">
-            Developed solutions for online sales, client management,
-            charging and access control.
+            Developed solutions for online sales, client management, charging
+            and access control.
           </Position>
         </Job>
 
@@ -142,9 +144,9 @@ export default function Resume() {
           from={new Date(2001, 6, 1)}
           to={new Date(2008, 8, 1)}
         >
-          Digital agency with internal projects
-          focused on kids and gastronomy, and external projects
-          ranging from hospitality fairs to political campaigns.
+          Digital agency with internal projects focused on kids and gastronomy,
+          and external projects ranging from hospitality fairs to political
+          campaigns.
           <Position title="IT Coordinator">
             Responsible for the IT team, managing internal network and inventory
           </Position>
@@ -185,7 +187,8 @@ export default function Resume() {
         <h2 className={utilStyles.headingLg}>Knowledge</h2>
 
         <Knowledge title="Languages">
-          Portuguese (native), English (fluent), Spanish (advanced), German (elementary)
+          Portuguese (native), English (fluent), Spanish (advanced), German
+          (intermediate)
         </Knowledge>
 
         <Knowledge title="Programming Languages">
