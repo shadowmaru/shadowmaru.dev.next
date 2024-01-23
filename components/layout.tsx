@@ -38,7 +38,7 @@ export default function Layout({
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
-        <Script>
+        <Script id="clicky_site_id">
           {`
           var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101172554);
           `}
