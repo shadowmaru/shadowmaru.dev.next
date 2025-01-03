@@ -5,10 +5,11 @@ export default function ToggleDarkMode({}: {}) {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const currentTheme = window.localStorage.getItem("theme");
+      const mainElement = document.getElementById("main");
 
-      if (currentTheme == "dark-mode") {
-        document.getElementById("main").classList.add("dark-mode");
-        document.getElementById("main").classList.remove("light-mode");
+      if (mainElement && currentTheme == "dark-mode") {
+        mainElement.classList.add("dark-mode");
+        mainElement.classList.remove("light-mode");
       }
     }
   }, []);
@@ -66,12 +67,15 @@ export default function ToggleDarkMode({}: {}) {
 }
 
 export function ToggleButton() {
-  const main = document.getElementById("main");
-  main.classList.toggle("dark-mode");
-  main.classList.toggle("light-mode");
+  const mainElement = document.getElementById("main");
+
+  if(mainElement) {
+    mainElement.classList.toggle("dark-mode");
+    mainElement.classList.toggle("light-mode");
+  }
 
   let theme = "light-mode";
-  if (main.classList.contains("dark-mode")) {
+  if (mainElement && mainElement.classList.contains("dark-mode")) {
     theme = "dark-mode";
   }
 

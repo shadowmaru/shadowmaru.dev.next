@@ -1,3 +1,5 @@
+'use client'
+
 import styles from "../styles/navbar.module.css";
 import ToggleDarkMode from "./toggle_dark_mode";
 

@@ -10,7 +10,7 @@ export default function Publication({
   date,
   children,
 }: {
-  title?: string;
+  title: string;
   url?: string;
   type: string;
   date: string;
