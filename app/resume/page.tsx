@@ -1,24 +1,21 @@
-import { GetStaticProps } from "next";
-import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
-import Layout, { siteTitle } from "../components/layout";
-import Job from "../components/job";
-import Education from "../components/education";
-import Position from "../components/position";
-import Knowledge from "../components/knowledge";
-import resumeStyles from "../styles/resume.module.css";
-import utilStyles from "../styles/utils.module.css";
+import type { Metadata } from 'next'
+import Job from "../../components/job";
+import Education from "../../components/education";
+import Position from "../../components/position";
+import Knowledge from "../../components/knowledge";
+import resumeStyles from "../../styles/resume.module.css";
+import utilStyles from "../../styles/utils.module.css";
 
-const name = "Ricardo Yasuda";
+const name = "Ricardo S. Yasuda";
+
+export const metadata: Metadata = {
+  title: `${name} - Resume`,
+}
 
 export default function Resume() {
   return (
-    <Layout resume>
-      <Head>
-        <title>{`${siteTitle} - Resume`}</title>
-      </Head>
-
+    <div>
       <section className={resumeStyles.personal}>
         <div className={resumeStyles.personalInfo}>
           <h1 className={utilStyles.headingXl}>{name}</h1>
@@ -199,6 +196,6 @@ export default function Resume() {
           Scrum, Kanban, Management 3.0
         </Knowledge>
       </section>
-    </Layout>
+    </div>
   );
 }

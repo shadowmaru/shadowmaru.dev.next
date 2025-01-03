@@ -1,19 +1,16 @@
-import { GetStaticProps } from "next";
-import Head from "next/head";
+'use client'
+
+import Layout from './home/layout'
 import Link from "next/link";
-import Layout, { siteTitle } from "../components/layout";
 import { default as PostDate } from "../components/date";
-import { getSortedPostsData } from "../lib/posts";
 import utilStyles from "../styles/utils.module.css";
 
 export default function Home({ allPostsData }) {
   const workingSince = 1999;
   const today = new Date();
-  return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+
+  return(
+    <Layout>
       <section>
         <p>
           Hello 👋&nbsp;, I&apos;m <b>Ricardo Yasuda</b>! I&apos;m a Brazilian
@@ -72,15 +69,4 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
     </Layout>
-  );
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData();
-
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-};
+)}
