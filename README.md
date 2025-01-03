@@ -22,6 +22,6 @@ deployed on the Production environment.
 
 ## Structure
 
-Pages are in the `pages` directory, posts are in the `posts` directory (duh).
+Pages are in the `app` directory, posts are in the `app/posts` directory (duh).
 
 Posts are written in Markdown, with a frontmatter containing the title and the publishing date.
