@@ -3,7 +3,7 @@ export default function Title({
   url,
 }: {
   children: string;
-  url: string;
+  url?: string;
 }) {
   return url ? (
     <a href={url} className="special-link">
