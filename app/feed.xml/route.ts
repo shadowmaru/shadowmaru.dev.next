@@ -18,7 +18,7 @@ export async function GET() {
     generator: "RSS for Next.js",
     feed_url: `${site_url}/feed.xml`,
     site_url: site_url,
-    managingEditor: "ricardo@yasuda.dev.br",
+    managingEditor: "contact@yasuda.dev.br",
     language: "en-US",
     pubDate: new Date().toUTCString(),
     ttl: 60,
