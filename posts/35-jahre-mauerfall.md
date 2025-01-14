@@ -1,5 +1,6 @@
 ---
 title: "35 Jahre Mauerfall - I've played with hundreds of other musicians in Berlin at Brandenburg Gate - How did it feel?"
+description: "What was like to play with Band für Freiheit"
 date: "2024-12-31"
 ---
 
@@ -16,7 +17,7 @@ In total, the organization claims that over 500,000 people visited the 4km open 
 
 But how did I end up there?
 
-![Screenshot of a TV broadcast; there as some musicians playing instruments and the logo of the TV station rbb on the top right corner and the event 35 Jahre Mauerfall on the bottom left](</images/posts/CleanShot 2024-11-11 at 13.15.38@2x.png>)
+![Screenshot of a TV broadcast; there are some musicians playing instruments and the logo of the TV station rbb on the top right corner and the event 35 Jahre Mauerfall on the bottom left](</images/posts/CleanShot 2024-11-11 at 13.15.38@2x.png>)
 🎞 rbb
 ## Verse
 

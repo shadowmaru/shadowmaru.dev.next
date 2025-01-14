@@ -24,7 +24,7 @@ export async function generateRssFeed(allPostsData) {
   allPostsData.map((post) => {
     feed.item({
       title: post.title,
-      description: post.title,
+      description: post.description,
       url: `${site_url}/posts/${post.id}`,
       date: post.date,
     });
