@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
   },
+  other: {
+    'fediverse:creator': `@shadowmaru@bolha.one`
+  },
   alternates: {
     types: {
       'application/rss+xml': `${siteUrl}/feed.xml`,

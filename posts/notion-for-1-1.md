@@ -2,6 +2,8 @@
 title: "Using Notion for 1:1s"
 description: "Using templates and databases to keep things organized"
 date: "2021-07-17"
+author: "@shadow@hachyderm.io"
+thumbnail: "/images/posts/notion3.png"
 ---
 
 Recently I've started to hold regular 1:1s with members on my team, as part of a transition to the

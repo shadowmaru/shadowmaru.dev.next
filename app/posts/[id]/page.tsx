@@ -35,6 +35,9 @@ export async function generateMetadata(
     description: post.description,
     openGraph: {
       images: [`${metadata.openGraph?.url}${post.thumbnail}`],
+    },
+    other: {
+      'fediverse:creator': post.author,
     }
   }
 }
