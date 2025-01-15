@@ -3,7 +3,10 @@ import '../styles/global.css';
 import type { Metadata } from 'next'
 
 const siteTitle = "Ricardo Yasuda, software developer"
-const siteUrl = "http://yasuda.dev.br"
+const siteUrl =
+  process.env.NODE_ENV === "production"
+    ? "https://yasuda.dev.br"
+    : "http://localhost:3000";
 
 export const metadata: Metadata = {
   title: siteTitle,
@@ -13,6 +16,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: siteTitle,
+    siteName: siteTitle,
+    url: siteUrl,
     images: [
       {
         url: `https://og-image.vercel.app/${encodeURI(

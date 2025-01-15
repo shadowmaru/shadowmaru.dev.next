@@ -1,6 +1,7 @@
 ---
 title: "35 Jahre Mauerfall - I've played with hundreds of other musicians in Berlin at Brandenburg Gate - How did it feel?"
 description: "What was like to play with Band für Freiheit"
+thumbnail: "/images/posts/CleanShot 2024-11-11 at 13.15.38@2x.png"
 date: "2024-12-31"
 ---
 
