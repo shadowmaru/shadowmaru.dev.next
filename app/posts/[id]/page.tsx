@@ -38,7 +38,7 @@ export async function generateMetadata(
     },
     other: {
       'fediverse:creator': post.author,
-    }
+    },
   }
 }
 
