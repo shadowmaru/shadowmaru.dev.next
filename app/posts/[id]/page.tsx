@@ -1,5 +1,5 @@
 import { Metadata, ResolvingMetadata } from 'next';
-import { siteUrl } from '../../layout';
+import { metadata } from '../../layout';
 import Date from '../../../components/date';
 import { getPostData } from '../../../lib/posts';
 import utilStyles from '../../../styles/utils.module.css';
@@ -34,7 +34,7 @@ export async function generateMetadata(
     title: post.title,
     description: post.description,
     openGraph: {
-      images: [`${siteUrl}${post.thumbnail}`],
+      images: [`${metadata.openGraph?.url}${post.thumbnail}`],
     }
   }
 }
