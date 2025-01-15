@@ -1,5 +1,6 @@
 ---
 title: "Using Notion for 1:1s"
+description: "Using templates and databases to keep things organized"
 date: "2021-07-17"
 ---
 

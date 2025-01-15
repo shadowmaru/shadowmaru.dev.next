@@ -3,6 +3,7 @@ import '../styles/global.css';
 import type { Metadata } from 'next'
 
 const siteTitle = "Ricardo Yasuda, software developer"
+const siteUrl = "http://yasuda.dev.br"
 
 export const metadata: Metadata = {
   title: siteTitle,
@@ -23,6 +24,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+  },
+  alternates: {
+    types: {
+      'application/rss+xml': `${siteUrl}/feed.xml`,
+    },
   }
 }
 

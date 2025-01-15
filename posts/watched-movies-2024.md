@@ -1,5 +1,6 @@
 ---
 title: "Watched Movies in 2024"
+description: "This is the list of the movies I've watched in 2024"
 date: "2025-01-01"
 ---
 
