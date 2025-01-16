@@ -30,15 +30,21 @@ export async function generateMetadata(
 
   const post = await getPostData(id as string)
 
+  const thumbnail = post.thumbnail ? `${metadata.openGraph?.url}${post.thumbnail}` : null
+
   return {
     title: post.title,
     description: post.description,
-    openGraph: {
-      images: [`${metadata.openGraph?.url}${post.thumbnail}`],
-    },
-    other: {
-      'fediverse:creator': post.author,
-    },
+    ...(thumbnail && {
+      openGraph: {
+       images: [thumbnail],
+      }
+    }),
+    ...(post.author && {
+      other: {
+        'fediverse:creator': post.author,
+      },
+    }),
   }
 }
 
