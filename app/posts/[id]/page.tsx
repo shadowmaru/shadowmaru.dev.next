@@ -9,7 +9,8 @@ type Props = {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
-export default async function Post({params}) {
+export default async function Post(props) {
+  const params = await props.params;
   const postData = await getPost(params)
   return (
     <article>
