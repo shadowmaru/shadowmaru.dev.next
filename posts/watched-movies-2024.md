@@ -2,6 +2,7 @@
 title: "Watched Movies in 2024"
 description: "This is the list of the movies I've watched in 2024"
 date: "2025-01-01"
+thumbnail: "/images/posts/watched-movies-2024-thumb.png"
 ---
 
 This is the list of the movies I've watched in 2024, that I've originally published in Mastodon. You can also see the same list (including other non-movie titles) in [Letterboxd](https://letterboxd.com/shadowmaru/list/watched-in-2024/).

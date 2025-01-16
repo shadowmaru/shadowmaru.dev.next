@@ -2,6 +2,7 @@
 title: "Watched Movies in 2023"
 description: "This is the list of the movies I've watched in 2023"
 date: "2024-03-01"
+thumbnail: "/images/posts/watched-movies-2023-thumb.png"
 ---
 
 This is the list of the movies I've watched in 2023, that I've published originally in [Mastodon](https://kolektiva.social/@shadowmaru/109644665735592169). You can also access this list in [Letterboxd](https://letterboxd.com/shadowmaru/list/watched-in-2023/).
