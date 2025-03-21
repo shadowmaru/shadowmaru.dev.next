@@ -21,7 +21,8 @@
     "react-dom": "19.0.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.2",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "escape-html": "^1.0.3"
   },
   "devDependencies": {
     "@types/react": "19.0.7",
