@@ -2,6 +2,7 @@
 
 import Layout from './home/layout'
 import Link from "next/link";
+import escape from "escape-html";
 import { default as PostDate } from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 
@@ -57,7 +58,7 @@ export default function Home({ allPostsData }) {
         <ul className={`writing__posts ${utilStyles.list}`}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`} className="writing__posts__link">
+              <Link href={`/posts/${escape(id)}`} className="writing__posts__link">
                 {title}
               </Link>
               <br />
