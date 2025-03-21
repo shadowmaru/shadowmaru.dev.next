@@ -2013,6 +2013,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"escape-html@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "escape-html@npm:1.0.3"
+  checksum: 10c0/524c739d776b36c3d29fa08a22e03e8824e3b2fd57500e5e44ecf3cc4707c34c60f9ca0781c0e33d191f2991161504c295e98f68c78fe7baa6e57081ec6ac0a3
+  languageName: node
+  linkType: hard
+
 "escape-string-regexp@npm:^1.0.5":
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
@@ -5262,6 +5269,7 @@ __metadata:
     axios: "npm:^1.7.4"
     cypress: "npm:^13.6.3"
     date-fns: "npm:^2.20.1"
+    escape-html: "npm:^1.0.3"
     eslint: "npm:^7.28.0"
     eslint-config-next: "npm:15.2.3"
     gray-matter: "npm:^4.0.2"
