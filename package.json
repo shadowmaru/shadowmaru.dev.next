@@ -1,6 +1,6 @@
 {
   "name": "shadowmaru.dev.next",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -16,7 +16,7 @@
     "axios": "^1.7.4",
     "date-fns": "^2.20.1",
     "gray-matter": "^4.0.2",
-    "next": "15.1.4",
+    "next": "15.2.3",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "remark": "^13.0.0",
@@ -25,17 +25,17 @@
     "escape-html": "^1.0.3"
   },
   "devDependencies": {
-    "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
     "cypress": "^13.6.3",
     "eslint": "^7.28.0",
-    "eslint-config-next": "15.1.4",
+    "eslint-config-next": "15.2.3",
     "start-server-and-test": "^2.0.3",
     "typescript": "^5.3.3"
   },
   "resolutions": {
-    "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4"
   },
   "packageManager": "yarn@4.6.0"
 }
