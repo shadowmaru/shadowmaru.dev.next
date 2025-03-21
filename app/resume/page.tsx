@@ -67,7 +67,7 @@ export default function Resume() {
             Engineering Manager for the Telecom team, handling connectivity for
             card readers worldwide.
           </Position>
-          <Position title="Specialist Software Engineer">
+          <Position title="Staff Software Engineer">
             Tech Lead of Terminals team, handling financial transactions from
             card readers, using Elixir and Erlang.
           </Position>
@@ -82,9 +82,13 @@ export default function Resume() {
           to={new Date(2019, 8, 16)}
         >
           <Position title="Senior Software Developer">
-            Lead Developer and Scrum Master for multiple teams, developing
-            customer experiences and backoffice solutions. Acted on Smart Fit
-            expansion in Latin America.
+            Extended the core system to support different kinds of fitness clubs
+            featuring advanced scheduling functionalities.
+            <br />
+            Improved the integration between the access control system with
+            physical barriers, with biometric authentication.
+            <br />
+            Acted on Smart Fit expansion in Latin America.
           </Position>
         </Job>
 
@@ -96,9 +100,9 @@ export default function Resume() {
           to={new Date(2015, 6, 1)}
         >
           <Position title="Senior Software Developer">
-            Adtech startup focused on Facebook campaigns. Full stack web
-            developer using Ruby, Sinatra, AngularJS. Integration with Facebook
-            APIs.
+            Adtech specialized in automating and optimizing ad placements in 
+            Facebook Ads platform. Acted as Full stack web developer using Ruby, 
+            Sinatra, AngularJS. Integration with Facebook Ads APIs.
           </Position>
         </Job>
 
@@ -111,11 +115,15 @@ export default function Resume() {
           to={new Date(2014, 1, 1)}
         >
           <Position title="Senior Software Developer">
-            Developed integrations with ERPs, banks and card schemes.
+            Expanded Smart Fit from 3 locations to over 1000, in Brazil 
+            and Latin America, building country-specific solutions.
           </Position>
           <Position title="Software Developer">
-            Developed solutions for online sales, client management, charging
-            and access control.
+            Built the core of the service that handled every aspect of 
+            a fitness club management: subscription management, billing, 
+            invoicing, customer management, access control, reconciliation, 
+            including integration with ERPs, banks, payment gateways and 
+            invoice printers.
           </Position>
         </Job>
 
@@ -130,7 +138,8 @@ export default function Resume() {
           Digital agency based in Santa Monica, CA, USA.
           <Position title="Software Developer">
             Developed the in-house CMS with Ruby on Rails, used to build several
-            projects for clients.
+            projects for clients, including personal and business websites, and
+            e-commerce sites.
           </Position>
         </Job>
 
@@ -145,7 +154,8 @@ export default function Resume() {
           and external projects ranging from hospitality fairs to political
           campaigns.
           <Position title="IT Coordinator">
-            Responsible for the IT team, managing internal network and inventory
+            Responsible for the IT team, managing internal network and inventory,
+            while still being able to work on projects as a developer.
           </Position>
           <Position title="Software Developer">
             Backend development for internal projects and for clients like
