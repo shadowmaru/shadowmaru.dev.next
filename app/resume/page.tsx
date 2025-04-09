@@ -50,9 +50,13 @@ export default function Resume() {
           to={new Date()}
         >
           <Position title="Engineering Manager">
-            Engineering Manager for multiple teams (Logistics, Partners,
-            Pricing, Billing) in multiple tribes (Acquisition, Growth, Online
-            Payments).
+            Responsible for the following teams over 3 years:
+
+            Pricing: owner of a service that calculates and manages fees for all card present and card not present transactions worldwide, handling millions of transactions per month, built in Elixir, with surrounding services in Go that handle event-based fee campaign automations.
+
+            Billing & Subscriptions: built the platform that supports different types of subscriptions at SumUp (Invoices, SumUp One, POS Pro), using microservices in TypeScript, Go and Lambda functions.
+
+            Logistics: team responsible for handling hardware and Business Account card deliveries through 3rd Party Logistics partners around the world.
           </Position>
         </Job>
         <Job
@@ -64,12 +68,19 @@ export default function Resume() {
           to={new Date(2022, 4, 31)}
         >
           <Position title="Engineering Manager">
-            Engineering Manager for the Telecom team, handling connectivity for
-            card readers worldwide.
+            The Telecom squad was responsible for handling cellular connectivity
+             for millions of card readers worldwide.
           </Position>
           <Position title="Staff Software Engineer">
             Tech Lead of Terminals team, handling financial transactions from
-            card readers, using Elixir and Erlang.
+            card readers in Brazil, using services in Elixir and Erlang. The
+            team was also responsible for supervising the development of the
+            reader's firmware, and coordinating their releases.
+
+            Implemented Alternative Payment Methods on card readers, such as Pix
+             in Brazil, support for manual card entry for benefits cards during
+             the pandemic, and support for new card schemes such as Mastercard
+             Debit.
           </Position>
         </Job>
 
@@ -100,8 +111,8 @@ export default function Resume() {
           to={new Date(2015, 6, 1)}
         >
           <Position title="Senior Software Developer">
-            Adtech specialized in automating and optimizing ad placements in 
-            Facebook Ads platform. Acted as Full stack web developer using Ruby, 
+            Adtech specialized in automating and optimizing ad placements in
+            Facebook Ads platform. Acted as Full stack web developer using Ruby,
             Sinatra, AngularJS. Integration with Facebook Ads APIs.
           </Position>
         </Job>
@@ -115,14 +126,14 @@ export default function Resume() {
           to={new Date(2014, 1, 1)}
         >
           <Position title="Senior Software Developer">
-            Expanded Smart Fit from 3 locations to over 1000, in Brazil 
+            Expanded Smart Fit from 3 locations to over 1000, in Brazil
             and Latin America, building country-specific solutions.
           </Position>
           <Position title="Software Developer">
-            Built the core of the service that handled every aspect of 
-            a fitness club management: subscription management, billing, 
-            invoicing, customer management, access control, reconciliation, 
-            including integration with ERPs, banks, payment gateways and 
+            Built the core of the service that handled every aspect of
+            a fitness club management: subscription management, billing,
+            invoicing, customer management, access control, reconciliation,
+            including integration with ERPs, banks, payment gateways and
             invoice printers.
           </Position>
         </Job>
