@@ -52,11 +52,26 @@ export default function Resume() {
           <Position title="Engineering Manager">
             Responsible for the following teams over 3 years:
 
-            Pricing: owner of a service that calculates and manages fees for all card present and card not present transactions worldwide, handling millions of transactions per month, built in Elixir, with surrounding services in Go that handle event-based fee campaign automations.
+            <br />
+            <br />
+            Pricing: owner of a service that calculates and manages fees for
+            all card present and card not present transactions worldwide,
+            handling millions of transactions per month, built in Elixir, with
+            surrounding services in Go that handle event-based fee campaign
+            automations.
 
-            Billing & Subscriptions: built the platform that supports different types of subscriptions at SumUp (Invoices, SumUp One, POS Pro), using microservices in TypeScript, Go and Lambda functions.
+            <br />
+            <br />
+            Billing & Subscriptions: built the platform that supports
+            different types of subscriptions at SumUp (Invoices, SumUp One,
+            POS Pro), using microservices and Lambda functions in TypeScript
+            and Go and Lambda functions.
 
-            Logistics: team responsible for handling hardware and Business Account card deliveries through 3rd Party Logistics partners around the world.
+            <br />
+            <br />
+            Logistics: team responsible for handling hardware and Business
+            Account card deliveries through 3rd Party Logistics partners
+            around the world.
           </Position>
         </Job>
         <Job
@@ -77,10 +92,12 @@ export default function Resume() {
             team was also responsible for supervising the development of the
             reader's firmware, and coordinating their releases.
 
-            Implemented Alternative Payment Methods on card readers, such as Pix
-             in Brazil, support for manual card entry for benefits cards during
-             the pandemic, and support for new card schemes such as Mastercard
-             Debit.
+            <br />
+            <br />
+            Implemented Alternative Payment Methods on card readers, such as
+            Pix in Brazil, support for manual card entry for benefits cards
+            during the pandemic, and support for new card schemes such as
+            Mastercard Debit.
           </Position>
         </Job>
 
