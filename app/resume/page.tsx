@@ -1,5 +1,5 @@
 import Image from "next/image";
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
 import Job from "../../components/job";
 import Education from "../../components/education";
 import Position from "../../components/position";
@@ -11,7 +11,7 @@ const name = "Ricardo S. Yasuda";
 
 export const metadata: Metadata = {
   title: `${name} - Resume`,
-}
+};
 
 export default function Resume() {
   return (
@@ -51,27 +51,23 @@ export default function Resume() {
         >
           <Position title="Engineering Manager">
             Responsible for the following teams over 3 years:
-
             <br />
             <br />
-            Pricing: owner of a service that calculates and manages fees for
-            all card present and card not present transactions worldwide,
-            handling millions of transactions per month, built in Elixir, with
+            Pricing: owner of a service that calculates and manages fees for all
+            card present and card not present transactions worldwide, handling
+            millions of transactions per month, built in Elixir, with
             surrounding services in Go that handle event-based fee campaign
             automations.
-
             <br />
             <br />
-            Billing & Subscriptions: built the platform that supports
-            different types of subscriptions at SumUp (Invoices, SumUp One,
-            POS Pro), using microservices and Lambda functions in TypeScript
-            and Go and Lambda functions.
-
+            Billing & Subscriptions: built the platform that supports different
+            types of subscriptions at SumUp (Invoices, SumUp One, POS Pro),
+            using microservices and Lambda functions in TypeScript and Go.
             <br />
             <br />
             Logistics: team responsible for handling hardware and Business
-            Account card deliveries through 3rd Party Logistics partners
-            around the world.
+            Account card deliveries through 3rd Party Logistics partners around
+            the world.
           </Position>
         </Job>
         <Job
@@ -84,20 +80,19 @@ export default function Resume() {
         >
           <Position title="Engineering Manager">
             The Telecom squad was responsible for handling cellular connectivity
-             for millions of card readers worldwide.
+            for millions of card readers worldwide.
           </Position>
           <Position title="Staff Software Engineer">
             Tech Lead of Terminals team, handling financial transactions from
             card readers in Brazil, using services in Elixir and Erlang. The
             team was also responsible for supervising the development of the
             reader's firmware, and coordinating their releases.
-
             <br />
             <br />
-            Implemented Alternative Payment Methods on card readers, such as
-            Pix in Brazil, support for manual card entry for benefits cards
-            during the pandemic, and support for new card schemes such as
-            Mastercard Debit.
+            Implemented Alternative Payment Methods on card readers, such as Pix
+            in Brazil, support for manual card entry for benefits cards during
+            the pandemic, and support for new card schemes such as Mastercard
+            Debit.
           </Position>
         </Job>
 
@@ -143,15 +138,14 @@ export default function Resume() {
           to={new Date(2014, 1, 1)}
         >
           <Position title="Senior Software Developer">
-            Expanded Smart Fit from 3 locations to over 1000, in Brazil
-            and Latin America, building country-specific solutions.
+            Expanded Smart Fit from 3 locations to over 1000, in Brazil and
+            Latin America, building country-specific solutions.
           </Position>
           <Position title="Software Developer">
-            Built the core of the service that handled every aspect of
-            a fitness club management: subscription management, billing,
-            invoicing, customer management, access control, reconciliation,
-            including integration with ERPs, banks, payment gateways and
-            invoice printers.
+            Built the core of the service that handled every aspect of a fitness
+            club management: subscription management, billing, invoicing,
+            customer management, access control, reconciliation, including
+            integration with ERPs, banks, payment gateways and invoice printers.
           </Position>
         </Job>
 
@@ -182,8 +176,9 @@ export default function Resume() {
           and external projects ranging from hospitality fairs to political
           campaigns.
           <Position title="IT Coordinator">
-            Responsible for the IT team, managing internal network and inventory,
-            while still being able to work on projects as a developer.
+            Responsible for the IT team, managing internal network and
+            inventory, while still being able to work on projects as a
+            developer.
           </Position>
           <Position title="Software Developer">
             Backend development for internal projects and for clients like
