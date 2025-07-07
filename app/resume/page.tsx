@@ -47,7 +47,7 @@ export default function Resume() {
           country="DE"
           url="https://sumup.de"
           from={new Date(2022, 5, 1)}
-          to={new Date()}
+          to={new Date(2025, 3, 10)}
         >
           <Position title="Engineering Manager">
             Responsible for the following teams over 3 years:
