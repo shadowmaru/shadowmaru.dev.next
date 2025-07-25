@@ -47,7 +47,7 @@ export default function Resume() {
           country="DE"
           url="https://sumup.de"
           from={new Date(2022, 5, 1)}
-          to={new Date()}
+          to={new Date(2025, 3, 10)}
         >
           <Position title="Engineering Manager">
             Responsible for the following teams over 3 years:
@@ -223,6 +223,12 @@ export default function Resume() {
 
         <Knowledge title="Programming Languages">
           Elixir, Ruby, JavaScript
+        </Knowledge>
+
+        <Knowledge title="Frameworks">Phoenix, Rails, React, Next.js</Knowledge>
+
+        <Knowledge title="Tools">
+          Git, Docker, Kubernetes, AWS, Terraform
         </Knowledge>
 
         <Knowledge title="Other Skills">
