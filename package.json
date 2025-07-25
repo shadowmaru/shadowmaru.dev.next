@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/react": "19.0.12",
     "@types/react-dom": "19.0.4",
-    "cypress": "^13.6.3",
+    "cypress": "^14.5.2",
     "eslint": "^7.28.0",
     "eslint-config-next": "15.2.3",
     "start-server-and-test": "^2.0.3",
