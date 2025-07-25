@@ -225,6 +225,12 @@ export default function Resume() {
           Elixir, Ruby, JavaScript
         </Knowledge>
 
+        <Knowledge title="Frameworks">Phoenix, Rails, React, Next.js</Knowledge>
+
+        <Knowledge title="Tools">
+          Git, Docker, Kubernetes, AWS, Terraform
+        </Knowledge>
+
         <Knowledge title="Other Skills">
           Scrum, Kanban, Management 3.0
         </Knowledge>
