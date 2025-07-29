@@ -1,0 +1,40 @@
+.linkedinButton {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(37,99,235);
+  color: rgb(255,255,255);
+  border-radius: .75rem;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.linkedin {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: .5rem;
+}
+
+.resumeLink {
+  margin-left: .5rem;
+}
+
+.quote {
+  margin: 1rem 0;
+  background: #eee;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
+
+.hello h3 {
+  text-transform: uppercase;
+  color:blue;
+}
